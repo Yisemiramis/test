@@ -87,12 +87,35 @@
         <div id="yellow"></div>
         <div id="red"></div>
 
-
+<!-- 
     <footer>
         <a href="#nav">Go to top</a>
-    </footer>
+    </footer> -->
+
+
+ <button id="up">Up</button>
 
 
   
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+ <script>
+
+ $(document).ready(function(){
+
+    $("#up").click(function(){
+
+        $("html,body").animate({scrollTop:"0"},500);
+        return false;
+    });
+  
+ 
+ });
+
+</script>
+    
+
+
+
 </body>
 </html>
